@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+*.db
+*.opendb
+.vs
+Debug/
+Release/
+*.response
+*.compressed

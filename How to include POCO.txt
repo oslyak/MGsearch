@@ -1,0 +1,19 @@
+﻿    Download POCO C++ libraries here   https://pocoproject.org/download/index.html
+    Extract(eg: extract to D:\poco-1.7.8p2)
+
+	Menu Start -> input "deve" -> Developer Command Prompt for VS20xx
+
+	D:
+	cd D:\poco-1.7.8p2
+
+    Find appropriate solution file and build.
+        build_vs140.cmd ==> Visual Studio 2015
+		build_vs150.cmd ==> Visual Studio 2017
+        For more info about visual studio versions       
+
+    Create new project in visual studio and add header path to Project->Properties->C/C++-> Additional Include Directories
+	   (If you want to use POCO Foundation, add "D:\poco-1.7.8p2\Foundation\include")
+	   (If you want to use POCO NET, add "D:\poco-1.7.8p2\Net\include")
+    Add POCO lib path to Project->Properties-> Linker-> General-> Additional Library Directories. (eg: D:\poco-1.7.8p2\lib)
+
+    Now you can start using POCO libraries in your project.
